@@ -144,12 +144,15 @@ window_rules:
       - window_process: { regex: 'crashpad_handler*' }
       # FSCapture
       - window_process: { regex: 'FSCapture*' }
+      # v2rayN
+      - window_process: { regex: 'v2rayN*' }
       # Task Manager
       - window_process: { equals: 'Taskmgr' }
         window_class: { regex: 'Taskmgr' }
       - window_process: { equals: 'Taskmgr' }
         window_title: { regex: '.*? - Task Manager' }
       - window_process: { equals: 'Taskmgr' }
+
       # Ignores any Zebar windows.
       - window_process: { equals: 'zebar' }
 
@@ -247,8 +250,9 @@ keybindings:
     bindings: ['alt+v']
 
   # Change focus from tiling windows -> floating -> fullscreen.
-  - commands: ['wm-cycle-focus']
-    bindings: ['alt+space']
+  # Disable for Raycast
+  #- commands: ['wm-cycle-focus']
+  #  bindings: ['alt+space']
 
   # Change the focused window to be floating.
   - commands: ['toggle-floating --centered']
