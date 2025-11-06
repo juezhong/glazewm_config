@@ -1,0 +1,8 @@
+[2m2025-11-06T01:27:42.760327Z[0m [31mERROR[0m [2mzebar[0m[2m:[0m Failed to parse JSON from file: C:\Users\HP\.glzr/zebar\settings.json
+
+Caused by:
+    key must be a string at line 5 column 7
+[2m2025-11-06T01:28:05.144657Z[0m [31mERROR[0m [2mzebar[0m[2m:[0m Failed to parse JSON from file: C:\Users\HP\.glzr/zebar\settings.json
+
+Caused by:
+    key must be a string at line 5 column 7
