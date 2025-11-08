@@ -152,6 +152,9 @@ window_rules:
       - window_process: { regex: 'FSCapture*' }
       # v2rayN
       - window_process: { regex: 'v2rayN*' }
+      # rustdesk & sunlogin
+      - window_process: { regex: 'rustdesk*' }
+      - window_process: { regex: 'SunloginClient*' }
       # Task Manager
       - window_process: { equals: 'Taskmgr' }
         window_class: { regex: 'Taskmgr' }
